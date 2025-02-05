@@ -10,7 +10,7 @@ import {
 } from "@ant-design/icons";
 const Header = () => {
   return (
-    <header className="flex justify-between items-center gap-5 text-white border-b border-gray-200 px-4 py-3 mb-6 bg-green-700">
+    <header className="flex justify-between items-center gap-5 text-white border-b border-gray-200 px-4 py-3 mb-3 bg-green-700">
       <div className="logo">
         <a href="/">
           <h2 className="text-2xl font-bold md:text-4xl">POS App</h2>
