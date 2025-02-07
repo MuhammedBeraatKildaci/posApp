@@ -41,7 +41,7 @@ const Header = () => {
         <Link className="flex flex-col items-center hover:text-[#40a9ff] md:text-xl text-sm" to="/statistics">
           <BarChartOutlined /> <span>İstatistikler</span>
         </Link>
-        <Link className="flex flex-col items-center hover:text-[#40a9ff] md:text-xl text-sm" to="/logIn">
+        <Link className="flex flex-col items-center hover:text-[#40a9ff] md:text-xl text-sm" to="/login">
           <LogoutOutlined /> <span>Çıkış</span>
         </Link>
       </div>
