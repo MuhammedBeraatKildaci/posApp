@@ -32,18 +32,18 @@ const Header = () => {
         <Link className="flex flex-col items-center hover:text-[#40a9ff] md:text-xl text-sm" to="/cart">
           <ShoppingCartOutlined /> <span>Sepet </span><Badge count={10} size="small" offset={[15, -50]} />
         </Link>
-        <a className="flex flex-col items-center hover:text-[#40a9ff] md:text-xl text-sm" href="/">
+        <Link className="flex flex-col items-center hover:text-[#40a9ff] md:text-xl text-sm" to="/bills">
           <CopyOutlined /> <span>Faturalar</span>
-        </a>
-        <a className="flex flex-col items-center hover:text-[#40a9ff] md:text-xl text-sm" href="/">
-          <UserOutlined /> <span>Kullanıcılar</span>
-        </a>
-        <a className="flex flex-col items-center hover:text-[#40a9ff] md:text-xl text-sm" href="/">
+        </Link>
+        <Link className="flex flex-col items-center hover:text-[#40a9ff] md:text-xl text-sm" to="/customers">
+          <UserOutlined /> <span>Müşteriler</span>
+        </Link>
+        <Link className="flex flex-col items-center hover:text-[#40a9ff] md:text-xl text-sm" to="/statistics">
           <BarChartOutlined /> <span>İstatistikler</span>
-        </a>
-        <a className="flex flex-col items-center hover:text-[#40a9ff] md:text-xl text-sm" href="/">
+        </Link>
+        <Link className="flex flex-col items-center hover:text-[#40a9ff] md:text-xl text-sm" to="/logIn">
           <LogoutOutlined /> <span>Çıkış</span>
-        </a>
+        </Link>
       </div>
     </header>
   );
