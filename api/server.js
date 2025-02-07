@@ -1,6 +1,8 @@
 import express from "express";
 import dotenv from "dotenv/config";
 import mongoose from "mongoose";
+import cors from "cors";
+import categoryRouter from "./routes/categoryRouter.js";
 
 const PORT = process.env.PORT;
 
@@ -15,9 +17,9 @@ const connectDB = async () => {
   }
 };
 
-app.get("/", (req, res) => {
-  res.send(`Hello World ,${PORT}`);
-});
+app.use(express.json());
+app.use(cors());
+app.use("/api/categories", categoryRouter);
 
 app.listen(PORT, () => {
   connectDB();
