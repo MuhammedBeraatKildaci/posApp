@@ -13,6 +13,7 @@
 - Add, update, delete products
 - Add, update, delete bills
 - Add, update, delete products in a bill
+- Authentication (Login, Logout, Register)
 
 ## Installation
 
